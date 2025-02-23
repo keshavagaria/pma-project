@@ -1518,3 +1518,22 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [proje
 
 2025-02-23 17:16:00.645  INFO 26720 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2025-02-23 17:16:00.724  INFO 26720 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-23 17:23:33.383  INFO 26824 --- [restartedMain] c.c.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.25 on LAPTOP-21MDR628 with PID 26824 (C:\Users\visha\OneDrive\Documents\workspace-sts-3.9.12.RELEASE\sts-imtyaz-workspace\pma-final-project\target\classes started by visha in C:\Users\visha\OneDrive\Documents\workspace-sts-3.9.12.RELEASE\sts-imtyaz-workspace\pma-final-project)
+2025-02-23 17:23:33.384 DEBUG 26824 --- [restartedMain] c.c.pma.ProjectManagementApplication     : Running with Spring Boot v2.6.4, Spring v5.3.16
+2025-02-23 17:23:33.385  INFO 26824 --- [restartedMain] c.c.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+2025-02-23 17:23:33.423  INFO 26824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-23 17:23:33.424  INFO 26824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-23 17:23:34.024  INFO 26824 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-23 17:23:34.072  INFO 26824 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-02-23 17:23:34.643  INFO 26824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-23 17:23:34.704  INFO 26824 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1280 ms
+2025-02-23 17:23:34.850  INFO 26824 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma'
+2025-02-23 17:23:35.550  INFO 26824 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-23 17:23:35.887  WARN 26824 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-23 17:23:36.148  INFO 26824 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2025-02-23 17:23:36.167  INFO 26824 --- [restartedMain] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2025-02-23 17:23:36.790  INFO 26824 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-23 17:23:36.832  INFO 26824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-23 17:23:36.843  INFO 26824 --- [restartedMain] c.c.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 3.72 seconds (JVM running for 4.255)
+2025-02-23 17:23:40.905  INFO 26824 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-23 17:23:40.985  INFO 26824 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
