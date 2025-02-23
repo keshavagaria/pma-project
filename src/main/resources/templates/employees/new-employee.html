@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layouts :: header"></head>
+
+<body>
+
+<nav th:replace="layouts :: navbar"></nav>
+
+<br>
+
+	<div class="container">
+		<form th:action="@{/employees/save}" method="POST" th:object="${employee}">
+		<input type="hidden" th:field="${employee.employeeId}">
+		
+		<div class="form-group row">
+		<input type="text" placeholder="First Name" th:field="${employee.firstName}">
+		<span style="color:red" th:if="${#fields.hasErrors('firstName')}"
+			th:errors="${employee.firstName}">
+		</span>
+		</div>
+		
+		<div class="form-group row">
+		<input type="text" placeholder="Last Name" th:field="${employee.lastName}">
+		<span style="color:red" th:if="${#fields.hasErrors('lastName')}"
+			th:errors="${employee.lastName}">
+		</span>
+		</div>
+		
+		<div class="form-group row">
+		<input type="text" placeholder="Email ID" th:field="${employee.email}">
+		<span style="color:red" th:if="${#fields.hasErrors('email')}"
+			th:errors="${employee.email}">
+		</span>
+		</div>
+		
+		 <!-- <select th:field="${project.stage}">
+			<option th:value="NOTSTARTED"> Not Started</option>
+			<option th:value="INPROGRESS"> In Progress</option>
+			<option th:value="COMPLETED"> Completed</option>
+		</select> 
+		<textarea type="text" placeholder="Enter Project Description"  th:field="${project.description}"></textarea> -->
+		<button  class="btn btn-info col-2" type="submit">Create Employee</button>
+		<!-- <input type="hidden" name="_csrf" th:value="${_csrf.token}" /> -->
+		</form>
+	</div>
+	
+</body>
+
+</html>
